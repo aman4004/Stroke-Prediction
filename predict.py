@@ -1,7 +1,9 @@
+from sklearn.preprocessing import StandardScaler
 import pickle
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
+import warnings
+warnings.filterwarnings('ignore')
 
 # model
 model = pickle.load(open('SVC_model.p', 'rb'))
