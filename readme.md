@@ -30,9 +30,9 @@ To build this model I have leveraged a publicly available **[kaggle dataset](htt
 - **[Distribution]:** The dataset was highly unbalanced so `SMOTE` is utilized for balancing it out
 - **[Evaluation Metric]:** The recall value of stroke class was highly prioritized for model evaluation and hence was the metric for model performance evaluation.
 - **[Feature Selection]:** According to Information gain's score with theshold 0.005 following features were good for stroke prediction `['age', 'hypertension', 'bmi', 'work_type_Self-employed', 'work_type_children']`
-- **[Best Model]:** Out of following models `[LogisticRegression, DecisionTreeClassifier, XGBClassifier, SVC, RandomForestClassifier`, `SVM` was the better performer with recall value of 0.85 for the stroke class.
+- **[Best Model]:** Out of following models `[LogisticRegression, DecisionTreeClassifier, XGBClassifier, SVC, RandomForestClassifier`, `SVM` was the best performer with recall value of 0.85 for the stroke class.
 
-## Installation and user guid
+## Installation and user guide
 
 This model is dockerized and can be pulled directly from docker hub using the following command.
 
