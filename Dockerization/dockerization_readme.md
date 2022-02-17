@@ -57,7 +57,7 @@ So to push it on dockerhub you can do the following;
 
    Which in our case looks like this
 
-   > `docker tag predict_stroke aman4004/predict_stroke
+   > `docker tag predict_stroke aman4004/predict_stroke`
 
 4. After tagging you can push it by this command
 
